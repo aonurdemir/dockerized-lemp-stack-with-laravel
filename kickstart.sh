@@ -1,10 +1,11 @@
 #!bin/bash
 
 git clone https://github.com/laravel/laravel.git laravel-app
-cd ~/laravel-app
+cd ./laravel-app
 
 cp ../docker-compose-run.sh ./
 cp ../migrate-db.sh ./
+cp ../Dockerfile ./
 cp ../docker-compose.yml ./
 cp ../activate-db-user.md ./
 cp ../.env ./
